@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning HTML Forms</title>
+    <style>
+      body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-image: url(image/timot.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="process.php" method="post">
+        <fieldset>
+            <legend>Personal Data:</legend>
+      <label for="fname">First Name: </label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last Name: </label><br />
+      <input type="text" id="lname" name="lname" /><br /><br>
+    
+      <!--Input type password-->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="Password" /><br>
+      <input type="checkbox" onclick="myFunction()">Show Password
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("password");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+      </script>
+      <br> <br>
+ 
+       <!-- Input type color -->
+       <input type="color">
+       <br><br>
+
+       <!-- Input type date -->
+       <input type="date">
+       <br><br>
+
+       <!-- Input type email -->
+       <label for="email">Email:</label><br>
+       <input type="email" name="email" required>
+       <br><br>
+
+       <!-- Input type file -->
+       <label for="file">File:</label><br>
+       <input type="file">
+       <br><br>
+
+       <!-- Input type hidden -->
+       <label for="hidden">Hidden:</label><br>
+       <input type="hidden">
+       <br><br>
+
+       <!-- Input type image-->
+       <img src="image/unai-banner.jpg"
+       width="270px"
+       height="150px">
+      <br><br>
+
+    <!-- Input type month -->
+    <label for="month">Month:</label><br>
+    <input type="month">
+    <br/><br/>
+
+    <!-- Input type number -->
+    <label for="number">Number:</label><br>
+    <input type="number">
+    <br/><br/>
+
+    <!-- Input type range -->
+    <label for="range">Range:</label><br>
+    <input type="range" name="range" min="0" max="100" step="20">
+    <br><br>
+
+    <!-- Input type search -->
+    <label for="search">Search:</label><br>
+    <input type="search" placeholder="Search here">
+    <br><br>
+
+    <!-- Input type tel -->
+    <label for="tel">Tel:</label><br>
+    <input type="tel" placeholder="+62-895-1111-1234">
+    <br><br>
+
+    <!-- Input type time -->
+    <label for="time">Time:</label><br>
+    <input type="time">
+    <br><br>
+
+    <!-- Input type url -->
+    <label for="url">URL:</label><br>
+    <input type="url" placeholder="Put the link here">
+    <br><br>
+
+    <!-- Input type week -->
+    <label for="week">Week:</label><br>
+    <input type="week">
+    <br><br>
+    <!-- Select element -->
+    <label for="religion">Choose your religion</label>
+    <select id="religion" name="religion" multiple>
+        <option value="Christian">Christian</option>
+        <option value="Moslem">Moslem</option>
+        <option value="Budhist">Budhist</option>
+        <option value="Hindu">Hindu</option>
+  </select>
+
+  <br><br>
+  <!--Textarea element-->
+  <label for="comment">Write your comment below:</label><br>
+  <textarea id="comment" name="comment" rows="10" cols="30">    </textarea>
+    <br>
+      <!-- Input type radio-->
+      <p>Choose your gender:</p>
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label>
+      <input type="radio" id="famale" name="gender" value="Famale" />
+      <label for="female">Female</label>
+
+      <!--Input type checkbox -->
+      <p>Choose your hobbies:</p>
+      <input type="checkbox" id="hobby1" name="hobby1" value="Badminton" />
+      <label for="hobby1">Badminton</label><br />
+      <input type="checkbox" id="hobby2" name="hobby2" value="Futsal" />
+      <label for="hobby2">Futsal</label><br />
+      <input type="checkbox" id="hobby3" name="hobby3" value="Football" />
+      <label for="hobby3">Football</label><br />
+      <input type="checkbox" id="hobby4" name="hobby4" value="Basketball" />
+      <label for="hobby4">Basketball</label><br />
+
+      <br /><br />
+      <!--Input type submit-->
+      <input type="submit" />
+
+      <!-- Input type reset -->
+      <input type="reset">
+    </form>
+  </body>
+</fieldset>
+  <footer>
+    Copyright © 2023 Timothy Richard
+  </footer>
+</html>

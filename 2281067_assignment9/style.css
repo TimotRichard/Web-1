@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 70px;
+}
+.ul-navigation {
+    background: linear-gradient(to left, #800080, #4B0082);
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.li-navigation > li > a:hover {
+    color: rgb(219, 219, 46);
+    transition: all 0.3s ease-in-out;
+}
+
+.li-navigation {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.li-navigation > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+
+.ul2-nav {
+    background-color: #ebebeb;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+}
+
+.li2-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.li2-nav > li > a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+
+#oppo {
+    background-color: rgb(8, 122, 8);
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+}
+
+#oppo > li a:hover {
+    color: white;
+}
+
+.li2-nav a:hover {
+    color: rgb(159, 46, 159);
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(135, 15, 135);
+    justify-content: center;
+    text-align: center;
+}
+.adi1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #adi {
+    color: #3f3f3f;
+  }
+  
+  #detikinet {
+  color: #b72697;  
+  }
+  
+  .hari {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.5;
+  }
+  
+  #img {
+    justify-content: center;    
+    padding-top: 20px;
+    margin-left: 5px;
+    width: 700px;
+  }
+  
+  #bocoran {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+      
+  #jakarta {
+    width: 720px;
+    margin-left: 300px;
+  }
+
+
+.footer {
+    border-top: 5px solid purple;
+}
+
+.imgfooter {
+    width: 5px;
+    height: 5px;
+}
+
+.footer > ul > li {
+    list-style-type: none ;
+}
